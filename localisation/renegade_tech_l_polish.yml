@@ -1,0 +1,28 @@
+﻿#l_braz_por:
+#l_english:
+#l_french:
+#l_german:
+l_polish:
+#l_russian:
+#l_spanish:
+
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#########################################/
+# Technology  ##########################/
+#######################################/
+
+#Version 2.0
+#TheRenegade 10/04/17
+
+
+#Repeatable Tech Tech
+
+tech_repeatable_orbital_station_health: "Increased Manufacturing Standards"
+tech_repeatable_orbital_station_health_desc: "Increaed regulations and standards has allowed you to retrofit your spaceports and increase their overall health."
+
+tech_repeatable_orbital_station_damage: "Increased Weaponry Payloads"
+tech_repeatable_orbital_station_damage_desc: "Micronization technology has allowed denser, deadlier weaponry payloads allowing your spaceports weapon systems to pack a bigger punch."
+

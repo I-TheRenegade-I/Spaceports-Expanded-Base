@@ -1,0 +1,104 @@
+spriteTypes = {
+
+	### Module Removal
+	spriteType = {
+		name = "GFX_spaceport_remove_module"
+		texturefile = "gfx/interface/icons/modules/remove_module.dds"
+	}	
+
+	### Port Modules
+	spriteType = {
+		name = "GFX_spaceport_upgrade_1"
+		texturefile = "gfx/interface/icons/modules/spaceport_modules_1.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_spaceport_upgrade_2"
+		texturefile = "gfx/interface/icons/modules/spaceport_modules_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_upgrade_3"
+		texturefile = "gfx/interface/icons/modules/spaceport_modules_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_upgrade_4"
+		texturefile = "gfx/interface/icons/modules/spaceport_modules_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_upgrade_5"
+		texturefile = "gfx/interface/icons/modules/spaceport_modules_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_upgrade_6"
+		texturefile = "gfx/interface/icons/modules/spaceport_modules_6.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_upgrade_7"
+		texturefile = "gfx/interface/icons/modules/spaceport_modules_7.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_upgrade_8"
+		texturefile = "gfx/interface/icons/modules/spaceport_modules_8.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_upgrade_9"
+		texturefile = "gfx/interface/icons/modules/spaceport_modules_9.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_upgrade_10"
+		texturefile = "gfx/interface/icons/modules/spaceport_modules_10.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_upgrade_11"
+		texturefile = "gfx/interface/icons/modules/spaceport_modules_11.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_upgrade_12"
+		texturefile = "gfx/interface/icons/modules/spaceport_modules_12.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_upgrade_13"
+		texturefile = "gfx/interface/icons/modules/spaceport_modules_13.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_upgrade_14"
+		texturefile = "gfx/interface/icons/modules/spaceport_modules_14.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_upgrade_15"
+		texturefile = "gfx/interface/icons/modules/spaceport_modules_15.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_upgrade_16"
+		texturefile = "gfx/interface/icons/modules/spaceport_modules_16.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_upgrade_17"
+		texturefile = "gfx/interface/icons/modules/spaceport_modules_17.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_upgrade_18"
+		texturefile = "gfx/interface/icons/modules/spaceport_modules_18.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_spaceport_upgrade_19"
+		texturefile = "gfx/interface/icons/modules/spaceport_modules_19.dds"
+	}
+}

@@ -1,0 +1,55 @@
+﻿#l_braz_por:
+#l_english:
+l_french:
+#l_german:
+#l_polish:
+#l_russian:
+#l_spanish:
+
+RENEGADE_MASS_ACCELERATOR: "Spaceport Giga Cannon"
+RENEGADE_ARC_EMITTER: "Spaceport Arc Emitter"
+RENEGADE_ENERGY_LANCE: "Spaceport Energy Lance"
+
+shipclass_orbital_station_hit_points_mult: "Spaceport Hull"
+shipclass_orbital_station_damage_mult: "Spaceport Weapon Damage"
+
+renegade_spaceport_desc: "The planets Spaceport level."
+renegade_spaceport_planet_level_1_desc: "$renegade_spaceport_desc$"
+renegade_spaceport_planet_level_2_desc: "$renegade_spaceport_desc$"
+renegade_spaceport_planet_level_3_desc: "$renegade_spaceport_desc$"
+renegade_spaceport_planet_level_4_desc: "$renegade_spaceport_desc$"
+renegade_spaceport_planet_level_5_desc: "$renegade_spaceport_desc$"
+renegade_spaceport_planet_level_6_desc: "$renegade_spaceport_desc$"
+renegade_spaceport_planet_level_7_desc: "$renegade_spaceport_desc$"
+renegade_spaceport_planet_level_8_desc: "$renegade_spaceport_desc$"
+renegade_spaceport_planet_level_9_desc: "$renegade_spaceport_desc$"
+renegade_spaceport_planet_level_10_desc: "$renegade_spaceport_desc$"
+renegade_spaceport_planet_level_11_desc: "$renegade_spaceport_desc$"
+renegade_spaceport_planet_level_12_desc: "$renegade_spaceport_desc$"
+renegade_spaceport_planet_level_13_desc: "$renegade_spaceport_desc$"
+renegade_spaceport_planet_level_14_desc: "$renegade_spaceport_desc$"
+renegade_spaceport_planet_level_15_desc: "$renegade_spaceport_desc$"
+renegade_spaceport_planet_level_16_desc: "$renegade_spaceport_desc$"
+renegade_spaceport_planet_level_17_desc: "$renegade_spaceport_desc$"
+renegade_spaceport_planet_level_18_desc: "$renegade_spaceport_desc$"
+renegade_spaceport_planet_level_19_desc: "$renegade_spaceport_desc$"
+
+renegade_spaceport_planet_level_1: "Spaceport 1"
+renegade_spaceport_planet_level_2: "Spaceport 2"
+renegade_spaceport_planet_level_3: "Spaceport 3"
+renegade_spaceport_planet_level_4: "Spaceport 4"
+renegade_spaceport_planet_level_5: "Spaceport 5"
+renegade_spaceport_planet_level_6: "Spaceport 6"
+renegade_spaceport_planet_level_7: "Spaceport 7"
+renegade_spaceport_planet_level_8: "Spaceport 8"
+renegade_spaceport_planet_level_9: "Spaceport 9"
+renegade_spaceport_planet_level_10: "Spaceport 10"
+renegade_spaceport_planet_level_11: "Spaceport 11"
+renegade_spaceport_planet_level_12: "Spaceport 12"
+renegade_spaceport_planet_level_13: "Spaceport 13"
+renegade_spaceport_planet_level_14: "Spaceport 14"
+renegade_spaceport_planet_level_15: "Spaceport 15"
+renegade_spaceport_planet_level_16: "Spaceport 16"
+renegade_spaceport_planet_level_17: "Spaceport 17"
+renegade_spaceport_planet_level_18: "Spaceport 18"
+renegade_spaceport_planet_level_19: "Spaceport 19"

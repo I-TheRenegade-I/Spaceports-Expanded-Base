@@ -1,0 +1,530 @@
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+#Version 1.1
+#TheRenegade 09/25/17
+
+spaceport_level_1 = {}
+spaceport_level_2 = {}
+spaceport_level_3 = {}
+spaceport_level_4 = {}
+spaceport_level_5 = {}
+spaceport_level_6 = {}
+
+
+# #!/usr/bin/lua
+# local max = 19
+# local modifiers = {
+# 	spaceport_ship_build_speed_mult = 2,
+# 	ship_hitpoints_add = 20000,
+# 	ship_armor_add = 250,
+# 	ship_weapon_damage = 2,
+# 	ship_fire_rate_mult = 2,
+# 	ship_tracking_add = 35,
+# 	ship_shield_hp_mult = 0.5,
+# 	ship_weapon_range_mult = 2,
+#	navy_size_add = 60,
+# }
+# local tmplShip = [[
+# renegade_spaceport_ship_level_%d = {
+# %s}
+# ]]
+# local tmplPlanet = [[
+# renegade_spaceport_planet_level_%d = {
+# 	icon = "gfx/interface/icons/modules/spaceport_modules_%d.dds"
+# %s}
+# ]]
+
+# for i = 1, max do
+# 	local data = ""
+# 	for mod, m in pairs(modifiers) do
+# 		local step = m / max
+# 		if mod:find("_add") then
+# 			data = data .. "\t" .. mod .. " = " .. ("%.0f"):format(step * i) .. "\n"
+# 		else
+# 			data = data .. "\t" .. mod .. " = " .. ("%.2f"):format(step * i) .. "\n"
+# 		end
+# 	end
+# 	print(tmplShip:format(i, data))
+# 	print(tmplPlanet:format(i, i, data))
+# end
+
+# Not all modifiers apply to both ship + planet, but if we list them in the
+# planet-static they show up in the tooltip.
+# And having the planet-modifiers on the ship-static doesn't do any harm.
+
+renegade_spaceport_ship_level_1 = {
+	ship_tracking_add = 2
+	spaceport_ship_build_speed_mult = 0.10
+	ship_hitpoints_add = 1000
+	ship_armor_add = 13
+	ship_fire_rate_mult = 0.10
+	ship_weapon_damage = 0.10
+	navy_size_add = 3
+	ship_shield_hp_mult = 0.05
+	ship_weapon_range_mult = 0.10
+}
+	
+renegade_spaceport_planet_level_1 = {
+	icon = "gfx/interface/icons/modules/spaceport_modules_1.dds"
+	ship_tracking_add = 2
+	spaceport_ship_build_speed_mult = 0.10
+	ship_hitpoints_add = 1000
+	ship_armor_add = 13
+	ship_fire_rate_mult = 0.10
+	ship_weapon_damage = 0.10
+	navy_size_add = 3
+	ship_shield_hp_mult = 0.05
+	ship_weapon_range_mult = 0.10
+}
+	
+renegade_spaceport_ship_level_2 = {
+	ship_tracking_add = 4
+	spaceport_ship_build_speed_mult = 0.20
+	ship_hitpoints_add = 2000
+	ship_armor_add = 26
+	ship_fire_rate_mult = 0.20
+	ship_weapon_damage = 0.20
+	navy_size_add = 6
+	ship_shield_hp_mult = 0.05
+	ship_weapon_range_mult = 0.20
+}
+	
+renegade_spaceport_planet_level_2 = {
+	icon = "gfx/interface/icons/modules/spaceport_modules_2.dds"
+	ship_tracking_add = 4
+	spaceport_ship_build_speed_mult = 0.20
+	ship_hitpoints_add = 2000
+	ship_armor_add = 26
+	ship_fire_rate_mult = 0.20
+	ship_weapon_damage = 0.20
+	navy_size_add = 6
+	ship_shield_hp_mult = 0.05
+	ship_weapon_range_mult = 0.20
+}
+	
+renegade_spaceport_ship_level_3 = {
+	ship_tracking_add = 6
+	spaceport_ship_build_speed_mult = 0.30
+	ship_hitpoints_add = 3000
+	ship_armor_add = 39
+	ship_fire_rate_mult = 0.30
+	ship_weapon_damage = 0.30
+	navy_size_add = 9
+	ship_shield_hp_mult = 0.10
+	ship_weapon_range_mult = 0.30
+}
+	
+renegade_spaceport_planet_level_3 = {
+	icon = "gfx/interface/icons/modules/spaceport_modules_3.dds"
+	ship_tracking_add = 6
+	spaceport_ship_build_speed_mult = 0.30
+	ship_hitpoints_add = 3000
+	ship_armor_add = 39
+	ship_fire_rate_mult = 0.30
+	ship_weapon_damage = 0.30
+	navy_size_add = 9
+	ship_shield_hp_mult = 0.10
+	ship_weapon_range_mult = 0.30
+}
+	
+renegade_spaceport_ship_level_4 = {
+	ship_tracking_add = 7
+	spaceport_ship_build_speed_mult = 0.40
+	ship_hitpoints_add = 4000
+	ship_armor_add = 53
+	ship_fire_rate_mult = 0.40
+	ship_weapon_damage = 0.40
+	navy_size_add = 13
+	ship_shield_hp_mult = 0.10
+	ship_weapon_range_mult = 0.40
+}
+	
+renegade_spaceport_planet_level_4 = {
+	icon = "gfx/interface/icons/modules/spaceport_modules_4.dds"
+	ship_tracking_add = 7
+	spaceport_ship_build_speed_mult = 0.40
+	ship_hitpoints_add = 4000
+	ship_armor_add = 53
+	ship_fire_rate_mult = 0.40
+	ship_weapon_damage = 0.40
+	navy_size_add = 13
+	ship_shield_hp_mult = 0.10
+	ship_weapon_range_mult = 0.40
+}
+	
+renegade_spaceport_ship_level_5 = {
+	ship_tracking_add = 9
+	spaceport_ship_build_speed_mult = 0.55
+	ship_hitpoints_add = 5000
+	ship_armor_add = 66
+	ship_fire_rate_mult = 0.55
+	ship_weapon_damage = 0.55
+	navy_size_add = 16
+	ship_shield_hp_mult = 0.15
+	ship_weapon_range_mult = 0.55
+}
+	
+renegade_spaceport_planet_level_5 = {
+	icon = "gfx/interface/icons/modules/spaceport_modules_5.dds"
+	ship_tracking_add = 9
+	spaceport_ship_build_speed_mult = 0.55
+	ship_hitpoints_add = 5000
+	ship_armor_add = 66
+	ship_fire_rate_mult = 0.55
+	ship_weapon_damage = 0.55
+	navy_size_add = 16
+	ship_shield_hp_mult = 0.15
+	ship_weapon_range_mult = 0.55
+}
+	
+renegade_spaceport_ship_level_6 = {
+	ship_tracking_add = 11
+	spaceport_ship_build_speed_mult = 0.65
+	ship_hitpoints_add = 6000
+	ship_armor_add = 79
+	ship_fire_rate_mult = 0.65
+	ship_weapon_damage = 0.65
+	navy_size_add = 19
+	ship_shield_hp_mult = 0.15
+	ship_weapon_range_mult = 0.65
+}
+	
+renegade_spaceport_planet_level_6 = {
+	icon = "gfx/interface/icons/modules/spaceport_modules_6.dds"
+	ship_tracking_add = 11
+	spaceport_ship_build_speed_mult = 0.65
+	ship_hitpoints_add = 6000
+	ship_armor_add = 79
+	ship_fire_rate_mult = 0.65
+	ship_weapon_damage = 0.65
+	navy_size_add = 19
+	ship_shield_hp_mult = 0.15
+	ship_weapon_range_mult = 0.65
+}
+	
+renegade_spaceport_ship_level_7 = {
+	ship_tracking_add = 13
+	spaceport_ship_build_speed_mult = 0.75
+	ship_hitpoints_add = 7000
+	ship_armor_add = 92
+	ship_fire_rate_mult = 0.75
+	ship_weapon_damage = 0.75
+	navy_size_add = 22
+	ship_shield_hp_mult = 0.20
+	ship_weapon_range_mult = 0.75
+}
+	
+renegade_spaceport_planet_level_7 = {
+	icon = "gfx/interface/icons/modules/spaceport_modules_7.dds"
+	ship_tracking_add = 13
+	spaceport_ship_build_speed_mult = 0.75
+	ship_hitpoints_add = 7000
+	ship_armor_add = 92
+	ship_fire_rate_mult = 0.75
+	ship_weapon_damage = 0.75
+	navy_size_add = 22
+	ship_shield_hp_mult = 0.20
+	ship_weapon_range_mult = 0.75
+}
+	
+renegade_spaceport_ship_level_8 = {
+	ship_tracking_add = 15
+	spaceport_ship_build_speed_mult = 0.85
+	ship_hitpoints_add = 8000
+	ship_armor_add = 105
+	ship_fire_rate_mult = 0.85
+	ship_weapon_damage = 0.85
+	navy_size_add = 25
+	ship_shield_hp_mult = 0.20
+	ship_weapon_range_mult = 0.85
+}
+	
+renegade_spaceport_planet_level_8 = {
+	icon = "gfx/interface/icons/modules/spaceport_modules_8.dds"
+	ship_tracking_add = 15
+	spaceport_ship_build_speed_mult = 0.85
+	ship_hitpoints_add = 8000
+	ship_armor_add = 105
+	ship_fire_rate_mult = 0.85
+	ship_weapon_damage = 0.85
+	navy_size_add = 25
+	ship_shield_hp_mult = 0.20
+	ship_weapon_range_mult = 0.85
+}
+	
+renegade_spaceport_ship_level_9 = {
+	ship_tracking_add = 17
+	spaceport_ship_build_speed_mult = 0.95
+	ship_hitpoints_add = 9000
+	ship_armor_add = 118
+	ship_fire_rate_mult = 0.95
+	ship_weapon_damage = 0.95
+	navy_size_add = 28
+	ship_shield_hp_mult = 0.25
+	ship_weapon_range_mult = 0.95
+}
+	
+renegade_spaceport_planet_level_9 = {
+	icon = "gfx/interface/icons/modules/spaceport_modules_9.dds"
+	ship_tracking_add = 17
+	spaceport_ship_build_speed_mult = 0.95
+	ship_hitpoints_add = 9000
+	ship_armor_add = 118
+	ship_fire_rate_mult = 0.95
+	ship_weapon_damage = 0.95
+	navy_size_add = 28
+	ship_shield_hp_mult = 0.25
+	ship_weapon_range_mult = 0.95
+}
+	
+renegade_spaceport_ship_level_10 = {
+	ship_tracking_add = 18
+	spaceport_ship_build_speed_mult = 1.05
+	ship_hitpoints_add = 10000
+	ship_armor_add = 132
+	ship_fire_rate_mult = 1.05
+	ship_weapon_damage = 1.05
+	navy_size_add = 32
+	ship_shield_hp_mult = 0.25
+	ship_weapon_range_mult = 1.05
+}
+	
+renegade_spaceport_planet_level_10 = {
+	icon = "gfx/interface/icons/modules/spaceport_modules_10.dds"
+	ship_tracking_add = 18
+	spaceport_ship_build_speed_mult = 1.05
+	ship_hitpoints_add = 10000
+	ship_armor_add = 132
+	ship_fire_rate_mult = 1.05
+	ship_weapon_damage = 1.05
+	navy_size_add = 32
+	ship_shield_hp_mult = 0.25
+	ship_weapon_range_mult = 1.05
+}
+	
+renegade_spaceport_ship_level_11 = {
+	ship_tracking_add = 20
+	spaceport_ship_build_speed_mult = 1.15
+	ship_hitpoints_add = 11000
+	ship_armor_add = 145
+	ship_fire_rate_mult = 1.15
+	ship_weapon_damage = 1.15
+	navy_size_add = 35
+	ship_shield_hp_mult = 0.30
+	ship_weapon_range_mult = 1.15
+}
+	
+renegade_spaceport_planet_level_11 = {
+	icon = "gfx/interface/icons/modules/spaceport_modules_11.dds"
+	ship_tracking_add = 20
+	spaceport_ship_build_speed_mult = 1.15
+	ship_hitpoints_add = 11000
+	ship_armor_add = 145
+	ship_fire_rate_mult = 1.15
+	ship_weapon_damage = 1.15
+	navy_size_add = 35
+	ship_shield_hp_mult = 0.30
+	ship_weapon_range_mult = 1.15
+}
+	
+renegade_spaceport_ship_level_12 = {
+	ship_tracking_add = 22
+	spaceport_ship_build_speed_mult = 1.25
+	ship_hitpoints_add = 12000
+	ship_armor_add = 158
+	ship_fire_rate_mult = 1.25
+	ship_weapon_damage = 1.25
+	navy_size_add = 38
+	ship_shield_hp_mult = 0.30
+	ship_weapon_range_mult = 1.25
+}
+	
+renegade_spaceport_planet_level_12 = {
+	icon = "gfx/interface/icons/modules/spaceport_modules_12.dds"
+	ship_tracking_add = 22
+	spaceport_ship_build_speed_mult = 1.25
+	ship_hitpoints_add = 12000
+	ship_armor_add = 158
+	ship_fire_rate_mult = 1.25
+	ship_weapon_damage = 1.25
+	navy_size_add = 38
+	ship_shield_hp_mult = 0.30
+	ship_weapon_range_mult = 1.25
+}
+	
+renegade_spaceport_ship_level_13 = {
+	ship_tracking_add = 24
+	spaceport_ship_build_speed_mult = 1.35
+	ship_hitpoints_add = 13000
+	ship_armor_add = 171
+	ship_fire_rate_mult = 1.35
+	ship_weapon_damage = 1.35
+	navy_size_add = 41
+	ship_shield_hp_mult = 0.35
+	ship_weapon_range_mult = 1.35
+}
+	
+renegade_spaceport_planet_level_13 = {
+	icon = "gfx/interface/icons/modules/spaceport_modules_13.dds"
+	ship_tracking_add = 24
+	spaceport_ship_build_speed_mult = 1.35
+	ship_hitpoints_add = 13000
+	ship_armor_add = 171
+	ship_fire_rate_mult = 1.35
+	ship_weapon_damage = 1.35
+	navy_size_add = 41
+	ship_shield_hp_mult = 0.35
+	ship_weapon_range_mult = 1.35
+}
+	
+renegade_spaceport_ship_level_14 = {
+	ship_tracking_add = 26
+	spaceport_ship_build_speed_mult = 1.45
+	ship_hitpoints_add = 14000
+	ship_armor_add = 184
+	ship_fire_rate_mult = 1.45
+	ship_weapon_damage = 1.45
+	navy_size_add = 44
+	ship_shield_hp_mult = 0.35
+	ship_weapon_range_mult = 1.45
+}
+	
+renegade_spaceport_planet_level_14 = {
+	icon = "gfx/interface/icons/modules/spaceport_modules_14.dds"
+	ship_tracking_add = 26
+	spaceport_ship_build_speed_mult = 1.45
+	ship_hitpoints_add = 14000
+	ship_armor_add = 184
+	ship_fire_rate_mult = 1.45
+	ship_weapon_damage = 1.45
+	navy_size_add = 44
+	ship_shield_hp_mult = 0.35
+	ship_weapon_range_mult = 1.45
+}
+	
+renegade_spaceport_ship_level_15 = {
+	ship_tracking_add = 28
+	spaceport_ship_build_speed_mult = 1.60
+	ship_hitpoints_add = 15000
+	ship_armor_add = 197
+	ship_fire_rate_mult = 1.60
+	ship_weapon_damage = 1.60
+	navy_size_add = 47
+	ship_shield_hp_mult = 0.40
+	ship_weapon_range_mult = 1.60
+}
+	
+renegade_spaceport_planet_level_15 = {
+	icon = "gfx/interface/icons/modules/spaceport_modules_15.dds"
+	ship_tracking_add = 28
+	spaceport_ship_build_speed_mult = 1.60
+	ship_hitpoints_add = 15000
+	ship_armor_add = 197
+	ship_fire_rate_mult = 1.60
+	ship_weapon_damage = 1.60
+	navy_size_add = 47
+	ship_shield_hp_mult = 0.40
+	ship_weapon_range_mult = 1.60
+}
+	
+renegade_spaceport_ship_level_16 = {
+	ship_tracking_add = 29
+	spaceport_ship_build_speed_mult = 1.70
+	ship_hitpoints_add = 16000
+	ship_armor_add = 211
+	ship_fire_rate_mult = 1.70
+	ship_weapon_damage = 1.70
+	navy_size_add = 51
+	ship_shield_hp_mult = 0.40
+	ship_weapon_range_mult = 1.70
+}
+	
+renegade_spaceport_planet_level_16 = {
+	icon = "gfx/interface/icons/modules/spaceport_modules_16.dds"
+	ship_tracking_add = 29
+	spaceport_ship_build_speed_mult = 1.70
+	ship_hitpoints_add = 16000
+	ship_armor_add = 211
+	ship_fire_rate_mult = 1.70
+	ship_weapon_damage = 1.70
+	navy_size_add = 51
+	ship_shield_hp_mult = 0.40
+	ship_weapon_range_mult = 1.70
+}
+	
+renegade_spaceport_ship_level_17 = {
+	ship_tracking_add = 31
+	spaceport_ship_build_speed_mult = 1.80
+	ship_hitpoints_add = 17000
+	ship_armor_add = 224
+	ship_fire_rate_mult = 1.80
+	ship_weapon_damage = 1.80
+	navy_size_add = 54
+	ship_shield_hp_mult = 0.45
+	ship_weapon_range_mult = 1.80
+}
+	
+renegade_spaceport_planet_level_17 = {
+	icon = "gfx/interface/icons/modules/spaceport_modules_17.dds"
+	ship_tracking_add = 31
+	spaceport_ship_build_speed_mult = 1.80
+	ship_hitpoints_add = 17000
+	ship_armor_add = 224
+	ship_fire_rate_mult = 1.80
+	ship_weapon_damage = 1.80
+	navy_size_add = 54
+	ship_shield_hp_mult = 0.45
+	ship_weapon_range_mult = 1.80
+}
+	
+renegade_spaceport_ship_level_18 = {
+	ship_tracking_add = 33
+	spaceport_ship_build_speed_mult = 1.90
+	ship_hitpoints_add = 18000
+	ship_armor_add = 237
+	ship_fire_rate_mult = 1.90
+	ship_weapon_damage = 1.90
+	navy_size_add = 57
+	ship_shield_hp_mult = 0.45
+	ship_weapon_range_mult = 1.90
+}
+	
+renegade_spaceport_planet_level_18 = {
+	icon = "gfx/interface/icons/modules/spaceport_modules_18.dds"
+	ship_tracking_add = 33
+	spaceport_ship_build_speed_mult = 1.90
+	ship_hitpoints_add = 18000
+	ship_armor_add = 237
+	ship_fire_rate_mult = 1.90
+	ship_weapon_damage = 1.90
+	navy_size_add = 57
+	ship_shield_hp_mult = 0.45
+	ship_weapon_range_mult = 1.90
+}
+	
+renegade_spaceport_ship_level_19 = {
+	ship_tracking_add = 35
+	spaceport_ship_build_speed_mult = 2.00
+	ship_hitpoints_add = 20000
+	ship_armor_add = 250
+	ship_fire_rate_mult = 2.00
+	ship_weapon_damage = 2.00
+	navy_size_add = 60
+	ship_shield_hp_mult = 0.50
+	ship_weapon_range_mult = 2.00
+}
+	
+renegade_spaceport_planet_level_19 = {
+	icon = "gfx/interface/icons/modules/spaceport_modules_19.dds"
+	ship_tracking_add = 35
+	spaceport_ship_build_speed_mult = 2.00
+	ship_hitpoints_add = 20000
+	ship_armor_add = 250
+	ship_fire_rate_mult = 2.00
+	ship_weapon_damage = 2.00
+	navy_size_add = 60
+	ship_shield_hp_mult = 0.50
+	ship_weapon_range_mult = 2.00
+}

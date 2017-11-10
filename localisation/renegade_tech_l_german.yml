@@ -1,0 +1,31 @@
+﻿#l_braz_por:
+#l_english:
+#l_french:
+l_german:
+#l_polish:
+#l_russian:
+#l_spanish:
+
+##############################################/
+# Renegade's Spaceports Expanded ############/
+############################################/
+
+####################################/
+# Technology ######################/
+##################################/
+
+#Version 2.0
+#TheRenegade 10/04/17
+#Translator: SonOfTheStars(SotS) 2017/10/11
+
+
+
+#Repeatable Tech Tech
+
+tech_repeatable_orbital_station_health: "Manufakturstandards"
+tech_repeatable_orbital_station_health_desc: "Verbesserte Standards und Kontrollen erlauben Einheitlichkeit beim Bau von Raumhäfen, was die Qualität massiv steigert."
+
+tech_repeatable_orbital_station_damage: "Magazinerweiterung"
+tech_repeatable_orbital_station_damage_desc: "Magazinerweiterungen und Generatorminiaturisierung erlauben den Waffensystemen einen erhöhten Schadensausstoß."
+
+

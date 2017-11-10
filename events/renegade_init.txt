@@ -1,0 +1,8 @@
+namespace = renegadeInit
+
+event = {
+	id = renegadeInit.1
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = { set_global_flag = "has_renegade_spaceports" }
+}

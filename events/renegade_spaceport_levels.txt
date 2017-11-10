@@ -1,0 +1,74 @@
+namespace = renegadeSpaceportLvl
+
+planet_event = {
+	id = renegadeSpaceportLvl.1
+	hide_window = yes
+	trigger = {
+		has_spaceport = yes
+		has_free_spaceport_module_slot = yes
+		switch = {
+			trigger = is_spaceport_module_slot_free
+			19 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 18 } } }
+			18 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 17 } } }
+			17 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 16 } } }
+			16 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 15 } } }
+			15 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 14 } } }
+			14 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 13 } } }
+			13 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 12 } } }
+			12 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 11 } } }
+			11 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 10 } } }
+			10 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 9 } } }
+			9 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 8 } } }
+			8 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 7 } } }
+			7 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 6 } } }
+			6 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 5 } } }
+			5 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 4 } } }
+			4 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 3 } } }
+			3 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 2 } } }
+			2 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 1 } } }
+			1 = { NOT = { check_variable = { which = "RenegadeSpaceportLevel" value > 0 } } }
+		}
+	}
+
+	immediate = {
+		set_planet_flag = "has_renegade_upgrade"
+		renegade_remove_modifiers = yes
+		switch = {
+			trigger = is_spaceport_module_slot_free
+			19 = { renegade_buff_19 = yes }
+			18 = { renegade_buff_18 = yes }
+			17 = { renegade_buff_17 = yes }
+			16 = { renegade_buff_16 = yes }
+			15 = { renegade_buff_15 = yes }
+			14 = { renegade_buff_14 = yes }
+			13 = { renegade_buff_13 = yes }
+			12 = { renegade_buff_12 = yes }
+			11 = { renegade_buff_11 = yes }
+			10 = { renegade_buff_10 = yes }
+			9 = { renegade_buff_9 = yes }
+			8 = { renegade_buff_8 = yes }
+			7 = { renegade_buff_7 = yes }
+			6 = { renegade_buff_6 = yes }
+			5 = { renegade_buff_5 = yes }
+			4 = { renegade_buff_4 = yes }
+			3 = { renegade_buff_3 = yes }
+			2 = { renegade_buff_2 = yes }
+			1 = { renegade_buff_1 = yes }
+		}
+	}
+}
+
+
+planet_event = {
+	id = renegadeSpaceportLvl.2
+	hide_window = yes
+
+	trigger = {
+		has_planet_flag = "has_renegade_upgrade"
+		has_spaceport = no
+	}
+	immediate = {
+		remove_planet_flag = "has_renegade_upgrade"
+		renegade_remove_modifiers = yes
+	}
+}

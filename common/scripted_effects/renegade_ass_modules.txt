@@ -1,0 +1,2251 @@
+check_private_news_radio_2 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = private_news_radio_2
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = private_news_radio_2 }
+					can_build_spaceport_module = private_news_radio_2
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 250 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 100 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 720 } }
+
+					set_ship_flag = "ass_op_sm_private_news_radio_2"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing private_news_radio_2 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_rse_module_weapon_l1 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = rse_module_weapon_l1
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = rse_module_weapon_l1 }
+					can_build_spaceport_module = rse_module_weapon_l1
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 250 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 150 } }
+
+					set_ship_flag = "ass_op_sm_rse_module_weapon_l1"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing rse_module_weapon_l1 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_spaceport_military_1 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = spaceport_military_1
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = spaceport_military_1 }
+					can_build_spaceport_module = spaceport_military_1
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 350 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 180 } }
+
+					set_ship_flag = "ass_op_sm_spaceport_military_1"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing spaceport_military_1 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_strategic_resource_2 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = strategic_resource_2
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = strategic_resource_2 }
+					can_build_spaceport_module = strategic_resource_2
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 750 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 750 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 1440 } }
+
+					set_ship_flag = "ass_op_sm_strategic_resource_2"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing strategic_resource_2 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_rse_module_weapon_k2 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = rse_module_weapon_k2
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = rse_module_weapon_k2 }
+					can_build_spaceport_module = rse_module_weapon_k2
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 500 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 300 } }
+
+					set_ship_flag = "ass_op_sm_rse_module_weapon_k2"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing rse_module_weapon_k2 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_strategic_resource_11 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = strategic_resource_11
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = strategic_resource_11 }
+					can_build_spaceport_module = strategic_resource_11
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 750 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 750 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 1440 } }
+
+					set_ship_flag = "ass_op_sm_strategic_resource_11"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing strategic_resource_11 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_ministry_of_propaganda_1 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = ministry_of_propaganda_1
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = ministry_of_propaganda_1 }
+					can_build_spaceport_module = ministry_of_propaganda_1
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 500 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 250 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 720 } }
+
+					set_ship_flag = "ass_op_sm_ministry_of_propaganda_1"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing ministry_of_propaganda_1 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_observatory_3 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = observatory_3
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = observatory_3 }
+					can_build_spaceport_module = observatory_3
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 800 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 200 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 720 } }
+
+					set_ship_flag = "ass_op_sm_observatory_3"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing observatory_3 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_spaceport_science_lab_2 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = spaceport_science_lab_2
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = spaceport_science_lab_2 }
+					can_build_spaceport_module = spaceport_science_lab_2
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 500 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 360 } }
+
+					set_ship_flag = "ass_op_sm_spaceport_science_lab_2"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing spaceport_science_lab_2 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_private_news_radio_1 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = private_news_radio_1
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = private_news_radio_1 }
+					can_build_spaceport_module = private_news_radio_1
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 250 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 360 } }
+
+					set_ship_flag = "ass_op_sm_private_news_radio_1"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing private_news_radio_1 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_spaceport_military_3 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = spaceport_military_3
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = spaceport_military_3 }
+					can_build_spaceport_module = spaceport_military_3
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 500 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 360 } }
+
+					set_ship_flag = "ass_op_sm_spaceport_military_3"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing spaceport_military_3 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_material_factory_3 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = material_factory_3
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = material_factory_3 }
+					can_build_spaceport_module = material_factory_3
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 400 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 250 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 720 } }
+
+					set_ship_flag = "ass_op_sm_material_factory_3"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing material_factory_3 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_spaceport_science_lab_5 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = spaceport_science_lab_5
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = spaceport_science_lab_5 }
+					can_build_spaceport_module = spaceport_science_lab_5
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 500 } }
+					fleet = { set_variable = { which = "AssOperationCostInfluence" value = 100 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 360 } }
+
+					set_ship_flag = "ass_op_sm_spaceport_science_lab_5"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing spaceport_science_lab_5 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_rse_module_hull_3 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = rse_module_hull_3
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = rse_module_hull_3 }
+					can_build_spaceport_module = rse_module_hull_3
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 800 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 720 } }
+
+					set_ship_flag = "ass_op_sm_rse_module_hull_3"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing rse_module_hull_3 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_strategic_resource_9 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = strategic_resource_9
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = strategic_resource_9 }
+					can_build_spaceport_module = strategic_resource_9
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 750 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 750 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 1440 } }
+
+					set_ship_flag = "ass_op_sm_strategic_resource_9"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing strategic_resource_9 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_strategic_resource_10 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = strategic_resource_10
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = strategic_resource_10 }
+					can_build_spaceport_module = strategic_resource_10
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 750 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 750 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 1440 } }
+
+					set_ship_flag = "ass_op_sm_strategic_resource_10"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing strategic_resource_10 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_spaceport_science_lab_4 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = spaceport_science_lab_4
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = spaceport_science_lab_4 }
+					can_build_spaceport_module = spaceport_science_lab_4
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 500 } }
+					fleet = { set_variable = { which = "AssOperationCostInfluence" value = 100 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 360 } }
+
+					set_ship_flag = "ass_op_sm_spaceport_science_lab_4"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing spaceport_science_lab_4 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_synchronized_defenses_2 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = synchronized_defenses_2
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = synchronized_defenses_2 }
+					can_build_spaceport_module = synchronized_defenses_2
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 400 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 360 } }
+
+					set_ship_flag = "ass_op_sm_synchronized_defenses_2"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing synchronized_defenses_2 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_ship_assembly_yards_1 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = ship_assembly_yards_1
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = ship_assembly_yards_1 }
+					can_build_spaceport_module = ship_assembly_yards_1
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 400 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 180 } }
+
+					set_ship_flag = "ass_op_sm_ship_assembly_yards_1"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing ship_assembly_yards_1 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_state_media_news_1 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = state_media_news_1
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = state_media_news_1 }
+					can_build_spaceport_module = state_media_news_1
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 400 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 360 } }
+
+					set_ship_flag = "ass_op_sm_state_media_news_1"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing state_media_news_1 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_engineering_bay_2 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = engineering_bay_2
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = engineering_bay_2 }
+					can_build_spaceport_module = engineering_bay_2
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 400 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 270 } }
+
+					set_ship_flag = "ass_op_sm_engineering_bay_2"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing engineering_bay_2 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_listening_post_1 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = listening_post_1
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = listening_post_1 }
+					can_build_spaceport_module = listening_post_1
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 250 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 500 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 180 } }
+
+					set_ship_flag = "ass_op_sm_listening_post_1"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing listening_post_1 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_rse_module_armor_3 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = rse_module_armor_3
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = rse_module_armor_3 }
+					can_build_spaceport_module = rse_module_armor_3
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 800 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 720 } }
+
+					set_ship_flag = "ass_op_sm_rse_module_armor_3"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing rse_module_armor_3 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_ministry_of_propaganda_2 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = ministry_of_propaganda_2
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = ministry_of_propaganda_2 }
+					can_build_spaceport_module = ministry_of_propaganda_2
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 750 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 250 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 720 } }
+
+					set_ship_flag = "ass_op_sm_ministry_of_propaganda_2"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing ministry_of_propaganda_2 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_rse_module_weapon_xl_2 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = rse_module_weapon_xl_2
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = rse_module_weapon_xl_2 }
+					can_build_spaceport_module = rse_module_weapon_xl_2
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 1000 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 1200 } }
+
+					set_ship_flag = "ass_op_sm_rse_module_weapon_xl_2"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing rse_module_weapon_xl_2 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_solar_panel_network2 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = solar_panel_network2
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = solar_panel_network2 }
+					can_build_spaceport_module = solar_panel_network2
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 400 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 180 } }
+
+					set_ship_flag = "ass_op_sm_solar_panel_network2"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing solar_panel_network2 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_rse_spaceport_shield_1 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = rse_spaceport_shield_1
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = rse_spaceport_shield_1 }
+					can_build_spaceport_module = rse_spaceport_shield_1
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 250 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 180 } }
+
+					set_ship_flag = "ass_op_sm_rse_spaceport_shield_1"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing rse_spaceport_shield_1 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_rse_module_weapon_l4 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = rse_module_weapon_l4
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = rse_module_weapon_l4 }
+					can_build_spaceport_module = rse_module_weapon_l4
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 1000 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 1200 } }
+
+					set_ship_flag = "ass_op_sm_rse_module_weapon_l4"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing rse_module_weapon_l4 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_solar_panel_network6 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = solar_panel_network6
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = solar_panel_network6 }
+					can_build_spaceport_module = solar_panel_network6
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 500 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 500 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 540 } }
+
+					set_ship_flag = "ass_op_sm_solar_panel_network6"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing solar_panel_network6 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_rse_module_armor_1 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = rse_module_armor_1
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = rse_module_armor_1 }
+					can_build_spaceport_module = rse_module_armor_1
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 400 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 180 } }
+
+					set_ship_flag = "ass_op_sm_rse_module_armor_1"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing rse_module_armor_1 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_hydroponic_farms_2 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = hydroponic_farms_2
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = hydroponic_farms_2 }
+					can_build_spaceport_module = hydroponic_farms_2
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 300 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 180 } }
+
+					set_ship_flag = "ass_op_sm_hydroponic_farms_2"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing hydroponic_farms_2 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_ship_assembly_yards_3 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = ship_assembly_yards_3
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = ship_assembly_yards_3 }
+					can_build_spaceport_module = ship_assembly_yards_3
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 800 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 720 } }
+
+					set_ship_flag = "ass_op_sm_ship_assembly_yards_3"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing ship_assembly_yards_3 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_rse_module_weapon_m3 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = rse_module_weapon_m3
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = rse_module_weapon_m3 }
+					can_build_spaceport_module = rse_module_weapon_m3
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 1000 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 600 } }
+
+					set_ship_flag = "ass_op_sm_rse_module_weapon_m3"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing rse_module_weapon_m3 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_spaceport_military_2 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = spaceport_military_2
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = spaceport_military_2 }
+					can_build_spaceport_module = spaceport_military_2
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 750 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 360 } }
+
+					set_ship_flag = "ass_op_sm_spaceport_military_2"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing spaceport_military_2 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_rse_module_weapon_m4 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = rse_module_weapon_m4
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = rse_module_weapon_m4 }
+					can_build_spaceport_module = rse_module_weapon_m4
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 1000 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 1200 } }
+
+					set_ship_flag = "ass_op_sm_rse_module_weapon_m4"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing rse_module_weapon_m4 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_hydroponic_farms_3 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = hydroponic_farms_3
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = hydroponic_farms_3 }
+					can_build_spaceport_module = hydroponic_farms_3
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 600 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 360 } }
+
+					set_ship_flag = "ass_op_sm_hydroponic_farms_3"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing hydroponic_farms_3 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_rse_module_weapon_m2 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = rse_module_weapon_m2
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = rse_module_weapon_m2 }
+					can_build_spaceport_module = rse_module_weapon_m2
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 500 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 300 } }
+
+					set_ship_flag = "ass_op_sm_rse_module_weapon_m2"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing rse_module_weapon_m2 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_state_media_news_2 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = state_media_news_2
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = state_media_news_2 }
+					can_build_spaceport_module = state_media_news_2
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 500 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 250 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 720 } }
+
+					set_ship_flag = "ass_op_sm_state_media_news_2"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing state_media_news_2 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_rse_spaceport_shield_3 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = rse_spaceport_shield_3
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = rse_spaceport_shield_3 }
+					can_build_spaceport_module = rse_spaceport_shield_3
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 1000 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 360 } }
+
+					set_ship_flag = "ass_op_sm_rse_spaceport_shield_3"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing rse_spaceport_shield_3 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_ministry_of_war_2 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = ministry_of_war_2
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = ministry_of_war_2 }
+					can_build_spaceport_module = ministry_of_war_2
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 500 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 250 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 720 } }
+
+					set_ship_flag = "ass_op_sm_ministry_of_war_2"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing ministry_of_war_2 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_rse_module_weapon_l3 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = rse_module_weapon_l3
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = rse_module_weapon_l3 }
+					can_build_spaceport_module = rse_module_weapon_l3
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 1000 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 600 } }
+
+					set_ship_flag = "ass_op_sm_rse_module_weapon_l3"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing rse_module_weapon_l3 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_ship_assembly_yards_2 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = ship_assembly_yards_2
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = ship_assembly_yards_2 }
+					can_build_spaceport_module = ship_assembly_yards_2
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 600 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 360 } }
+
+					set_ship_flag = "ass_op_sm_ship_assembly_yards_2"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing ship_assembly_yards_2 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_rse_module_hangar_2 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = rse_module_hangar_2
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = rse_module_hangar_2 }
+					can_build_spaceport_module = rse_module_hangar_2
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 1000 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 240 } }
+
+					set_ship_flag = "ass_op_sm_rse_module_hangar_2"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing rse_module_hangar_2 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_strategic_resource_1 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = strategic_resource_1
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = strategic_resource_1 }
+					can_build_spaceport_module = strategic_resource_1
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 750 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 750 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 1440 } }
+
+					set_ship_flag = "ass_op_sm_strategic_resource_1"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing strategic_resource_1 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_solar_panel_network7 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = solar_panel_network7
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = solar_panel_network7 }
+					can_build_spaceport_module = solar_panel_network7
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 500 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 750 } }
+					fleet = { set_variable = { which = "AssOperationCostInfluence" value = 75 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 720 } }
+
+					set_ship_flag = "ass_op_sm_solar_panel_network7"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing solar_panel_network7 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_rse_module_weapon_m1 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = rse_module_weapon_m1
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = rse_module_weapon_m1 }
+					can_build_spaceport_module = rse_module_weapon_m1
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 250 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 150 } }
+
+					set_ship_flag = "ass_op_sm_rse_module_weapon_m1"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing rse_module_weapon_m1 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_strategic_resource_6 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = strategic_resource_6
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = strategic_resource_6 }
+					can_build_spaceport_module = strategic_resource_6
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 750 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 750 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 1440 } }
+
+					set_ship_flag = "ass_op_sm_strategic_resource_6"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing strategic_resource_6 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_rse_module_weapon_l2 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = rse_module_weapon_l2
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = rse_module_weapon_l2 }
+					can_build_spaceport_module = rse_module_weapon_l2
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 500 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 300 } }
+
+					set_ship_flag = "ass_op_sm_rse_module_weapon_l2"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing rse_module_weapon_l2 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_strategic_resource_3 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = strategic_resource_3
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = strategic_resource_3 }
+					can_build_spaceport_module = strategic_resource_3
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 750 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 750 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 1440 } }
+
+					set_ship_flag = "ass_op_sm_strategic_resource_3"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing strategic_resource_3 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_rse_module_weapon_k3 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = rse_module_weapon_k3
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = rse_module_weapon_k3 }
+					can_build_spaceport_module = rse_module_weapon_k3
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 1000 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 600 } }
+
+					set_ship_flag = "ass_op_sm_rse_module_weapon_k3"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing rse_module_weapon_k3 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_strategic_resource_4 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = strategic_resource_4
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = strategic_resource_4 }
+					can_build_spaceport_module = strategic_resource_4
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 750 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 750 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 1440 } }
+
+					set_ship_flag = "ass_op_sm_strategic_resource_4"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing strategic_resource_4 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_rse_module_hangar_1 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = rse_module_hangar_1
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = rse_module_hangar_1 }
+					can_build_spaceport_module = rse_module_hangar_1
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 750 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 120 } }
+
+					set_ship_flag = "ass_op_sm_rse_module_hangar_1"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing rse_module_hangar_1 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_observatory_2 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = observatory_2
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = observatory_2 }
+					can_build_spaceport_module = observatory_2
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 400 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 360 } }
+
+					set_ship_flag = "ass_op_sm_observatory_2"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing observatory_2 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_rse_spaceport_shield_2 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = rse_spaceport_shield_2
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = rse_spaceport_shield_2 }
+					can_build_spaceport_module = rse_spaceport_shield_2
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 500 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 270 } }
+
+					set_ship_flag = "ass_op_sm_rse_spaceport_shield_2"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing rse_spaceport_shield_2 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_material_factory_5 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = material_factory_5
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = material_factory_5 }
+					can_build_spaceport_module = material_factory_5
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 250 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 1000 } }
+					fleet = { set_variable = { which = "AssOperationCostInfluence" value = 75 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 720 } }
+
+					set_ship_flag = "ass_op_sm_material_factory_5"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing material_factory_5 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_rse_module_weapon_k4 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = rse_module_weapon_k4
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = rse_module_weapon_k4 }
+					can_build_spaceport_module = rse_module_weapon_k4
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 1000 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 1200 } }
+
+					set_ship_flag = "ass_op_sm_rse_module_weapon_k4"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing rse_module_weapon_k4 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_ministry_of_war_1 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = ministry_of_war_1
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = ministry_of_war_1 }
+					can_build_spaceport_module = ministry_of_war_1
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 400 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 360 } }
+
+					set_ship_flag = "ass_op_sm_ministry_of_war_1"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing ministry_of_war_1 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_rse_module_armor_2 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = rse_module_armor_2
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = rse_module_armor_2 }
+					can_build_spaceport_module = rse_module_armor_2
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 600 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 360 } }
+
+					set_ship_flag = "ass_op_sm_rse_module_armor_2"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing rse_module_armor_2 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_strategic_resource_8 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = strategic_resource_8
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = strategic_resource_8 }
+					can_build_spaceport_module = strategic_resource_8
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 750 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 750 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 1440 } }
+
+					set_ship_flag = "ass_op_sm_strategic_resource_8"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing strategic_resource_8 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_rse_module_weapon_k1 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = rse_module_weapon_k1
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = rse_module_weapon_k1 }
+					can_build_spaceport_module = rse_module_weapon_k1
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 250 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 150 } }
+
+					set_ship_flag = "ass_op_sm_rse_module_weapon_k1"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing rse_module_weapon_k1 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_rse_module_hull_2 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = rse_module_hull_2
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = rse_module_hull_2 }
+					can_build_spaceport_module = rse_module_hull_2
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 600 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 360 } }
+
+					set_ship_flag = "ass_op_sm_rse_module_hull_2"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing rse_module_hull_2 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_strategic_resource_7 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = strategic_resource_7
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = strategic_resource_7 }
+					can_build_spaceport_module = strategic_resource_7
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 750 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 750 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 1440 } }
+
+					set_ship_flag = "ass_op_sm_strategic_resource_7"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing strategic_resource_7 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_rse_module_weapon_xl_1 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = rse_module_weapon_xl_1
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = rse_module_weapon_xl_1 }
+					can_build_spaceport_module = rse_module_weapon_xl_1
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 1000 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 1200 } }
+
+					set_ship_flag = "ass_op_sm_rse_module_weapon_xl_1"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing rse_module_weapon_xl_1 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_psionic_mood_array = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = psionic_mood_array
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = psionic_mood_array }
+					can_build_spaceport_module = psionic_mood_array
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 450 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 150 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 720 } }
+
+					set_ship_flag = "ass_op_sm_psionic_mood_array"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing psionic_mood_array at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_solar_panel_network3 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = solar_panel_network3
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = solar_panel_network3 }
+					can_build_spaceport_module = solar_panel_network3
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 600 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 360 } }
+
+					set_ship_flag = "ass_op_sm_solar_panel_network3"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing solar_panel_network3 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_solar_panel_network4 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = solar_panel_network4
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = solar_panel_network4 }
+					can_build_spaceport_module = solar_panel_network4
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 800 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 360 } }
+
+					set_ship_flag = "ass_op_sm_solar_panel_network4"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing solar_panel_network4 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_solar_panel_network5 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = solar_panel_network5
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = solar_panel_network5 }
+					can_build_spaceport_module = solar_panel_network5
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 1000 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 250 } }
+					fleet = { set_variable = { which = "AssOperationCostInfluence" value = 75 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 540 } }
+
+					set_ship_flag = "ass_op_sm_solar_panel_network5"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing solar_panel_network5 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_rse_module_hull_1 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = rse_module_hull_1
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = rse_module_hull_1 }
+					can_build_spaceport_module = rse_module_hull_1
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 400 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 180 } }
+
+					set_ship_flag = "ass_op_sm_rse_module_hull_1"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing rse_module_hull_1 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_synchronized_defenses_4 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = synchronized_defenses_4
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = synchronized_defenses_4 }
+					can_build_spaceport_module = synchronized_defenses_4
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 800 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 1440 } }
+
+					set_ship_flag = "ass_op_sm_synchronized_defenses_4"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing synchronized_defenses_4 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_material_factory_1 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = material_factory_1
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = material_factory_1 }
+					can_build_spaceport_module = material_factory_1
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 200 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 150 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 180 } }
+
+					set_ship_flag = "ass_op_sm_material_factory_1"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing material_factory_1 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_material_factory_2 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = material_factory_2
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = material_factory_2 }
+					can_build_spaceport_module = material_factory_2
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 400 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 250 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 360 } }
+
+					set_ship_flag = "ass_op_sm_material_factory_2"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing material_factory_2 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_hydroponic_farms_4 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = hydroponic_farms_4
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = hydroponic_farms_4 }
+					can_build_spaceport_module = hydroponic_farms_4
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 800 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 720 } }
+
+					set_ship_flag = "ass_op_sm_hydroponic_farms_4"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing hydroponic_farms_4 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_spaceport_science_lab_1 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = spaceport_science_lab_1
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = spaceport_science_lab_1 }
+					can_build_spaceport_module = spaceport_science_lab_1
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 500 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 360 } }
+
+					set_ship_flag = "ass_op_sm_spaceport_science_lab_1"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing spaceport_science_lab_1 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_synchronized_defenses_3 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = synchronized_defenses_3
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = synchronized_defenses_3 }
+					can_build_spaceport_module = synchronized_defenses_3
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 800 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 720 } }
+
+					set_ship_flag = "ass_op_sm_synchronized_defenses_3"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing synchronized_defenses_3 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_material_factory_4 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = material_factory_4
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = material_factory_4 }
+					can_build_spaceport_module = material_factory_4
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 400 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 250 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 1440 } }
+
+					set_ship_flag = "ass_op_sm_material_factory_4"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing material_factory_4 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_listening_post_2 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = listening_post_2
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = listening_post_2 }
+					can_build_spaceport_module = listening_post_2
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 400 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 800 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 360 } }
+
+					set_ship_flag = "ass_op_sm_listening_post_2"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing listening_post_2 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_spaceport_military_4 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = spaceport_military_4
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = spaceport_military_4 }
+					can_build_spaceport_module = spaceport_military_4
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 300 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 360 } }
+
+					set_ship_flag = "ass_op_sm_spaceport_military_4"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing spaceport_military_4 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_strategic_resource_5 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = strategic_resource_5
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = strategic_resource_5 }
+					can_build_spaceport_module = strategic_resource_5
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 750 } }
+					fleet = { set_variable = { which = "AssOperationCostEnergy" value = 750 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 1440 } }
+
+					set_ship_flag = "ass_op_sm_strategic_resource_5"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing strategic_resource_5 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+check_spaceport_science_lab_3 = {
+	if = {
+		limit = {
+			ROOT = { NOT = { has_ship_flag = "ass_op_spaceport_modules" } }
+			has_spaceport_module = spaceport_science_lab_3
+		}
+		owner = {
+			random_owned_planet = {
+				limit = {
+					renegade_valid_spaceport_module_planet = yes
+					NOT = { has_spaceport_module = spaceport_science_lab_3 }
+					can_build_spaceport_module = spaceport_science_lab_3
+				}
+				ROOT = {
+					fleet = { set_variable = { which = "AssOperationCost" value = 500 } }
+					fleet = { set_variable = { which = "AssConstructionTime" value = 360 } }
+
+					set_ship_flag = "ass_op_sm_spaceport_science_lab_3"
+					set_ship_flag = "ass_op_spaceport_modules"
+				}
+				log = "[root.GetName]: Constructing spaceport_science_lab_3 at [this.GetName]."
+				save_event_target_as = ass_target
+			}
+		}
+	}
+}
+
+renegade_spaceports_ass_stage4_sm_remove_data = {
+	remove_ship_flag = "ass_op_sm_engineering_bay_2"
+	remove_ship_flag = "ass_op_sm_hydroponic_farms_2"
+	remove_ship_flag = "ass_op_sm_hydroponic_farms_3"
+	remove_ship_flag = "ass_op_sm_hydroponic_farms_4"
+	remove_ship_flag = "ass_op_sm_listening_post_1"
+	remove_ship_flag = "ass_op_sm_listening_post_2"
+	remove_ship_flag = "ass_op_sm_material_factory_1"
+	remove_ship_flag = "ass_op_sm_material_factory_2"
+	remove_ship_flag = "ass_op_sm_material_factory_3"
+	remove_ship_flag = "ass_op_sm_material_factory_4"
+	remove_ship_flag = "ass_op_sm_material_factory_5"
+	remove_ship_flag = "ass_op_sm_ministry_of_propaganda_1"
+	remove_ship_flag = "ass_op_sm_ministry_of_propaganda_2"
+	remove_ship_flag = "ass_op_sm_ministry_of_war_1"
+	remove_ship_flag = "ass_op_sm_ministry_of_war_2"
+	remove_ship_flag = "ass_op_sm_observatory_2"
+	remove_ship_flag = "ass_op_sm_observatory_3"
+	remove_ship_flag = "ass_op_sm_private_news_radio_1"
+	remove_ship_flag = "ass_op_sm_private_news_radio_2"
+	remove_ship_flag = "ass_op_sm_psionic_mood_array"
+	remove_ship_flag = "ass_op_sm_rse_module_armor_1"
+	remove_ship_flag = "ass_op_sm_rse_module_armor_2"
+	remove_ship_flag = "ass_op_sm_rse_module_armor_3"
+	remove_ship_flag = "ass_op_sm_rse_module_hangar_1"
+	remove_ship_flag = "ass_op_sm_rse_module_hangar_2"
+	remove_ship_flag = "ass_op_sm_rse_module_hull_1"
+	remove_ship_flag = "ass_op_sm_rse_module_hull_2"
+	remove_ship_flag = "ass_op_sm_rse_module_hull_3"
+	remove_ship_flag = "ass_op_sm_rse_module_weapon_k1"
+	remove_ship_flag = "ass_op_sm_rse_module_weapon_k2"
+	remove_ship_flag = "ass_op_sm_rse_module_weapon_k3"
+	remove_ship_flag = "ass_op_sm_rse_module_weapon_k4"
+	remove_ship_flag = "ass_op_sm_rse_module_weapon_l1"
+	remove_ship_flag = "ass_op_sm_rse_module_weapon_l2"
+	remove_ship_flag = "ass_op_sm_rse_module_weapon_l3"
+	remove_ship_flag = "ass_op_sm_rse_module_weapon_l4"
+	remove_ship_flag = "ass_op_sm_rse_module_weapon_m1"
+	remove_ship_flag = "ass_op_sm_rse_module_weapon_m2"
+	remove_ship_flag = "ass_op_sm_rse_module_weapon_m3"
+	remove_ship_flag = "ass_op_sm_rse_module_weapon_m4"
+	remove_ship_flag = "ass_op_sm_rse_module_weapon_xl_1"
+	remove_ship_flag = "ass_op_sm_rse_module_weapon_xl_2"
+	remove_ship_flag = "ass_op_sm_rse_spaceport_shield_1"
+	remove_ship_flag = "ass_op_sm_rse_spaceport_shield_2"
+	remove_ship_flag = "ass_op_sm_rse_spaceport_shield_3"
+	remove_ship_flag = "ass_op_sm_ship_assembly_yards_1"
+	remove_ship_flag = "ass_op_sm_ship_assembly_yards_2"
+	remove_ship_flag = "ass_op_sm_ship_assembly_yards_3"
+	remove_ship_flag = "ass_op_sm_solar_panel_network2"
+	remove_ship_flag = "ass_op_sm_solar_panel_network3"
+	remove_ship_flag = "ass_op_sm_solar_panel_network4"
+	remove_ship_flag = "ass_op_sm_solar_panel_network5"
+	remove_ship_flag = "ass_op_sm_solar_panel_network6"
+	remove_ship_flag = "ass_op_sm_solar_panel_network7"
+	remove_ship_flag = "ass_op_sm_spaceport_military_1"
+	remove_ship_flag = "ass_op_sm_spaceport_military_2"
+	remove_ship_flag = "ass_op_sm_spaceport_military_3"
+	remove_ship_flag = "ass_op_sm_spaceport_military_4"
+	remove_ship_flag = "ass_op_sm_spaceport_science_lab_1"
+	remove_ship_flag = "ass_op_sm_spaceport_science_lab_2"
+	remove_ship_flag = "ass_op_sm_spaceport_science_lab_3"
+	remove_ship_flag = "ass_op_sm_spaceport_science_lab_4"
+	remove_ship_flag = "ass_op_sm_spaceport_science_lab_5"
+	remove_ship_flag = "ass_op_sm_state_media_news_1"
+	remove_ship_flag = "ass_op_sm_state_media_news_2"
+	remove_ship_flag = "ass_op_sm_strategic_resource_1"
+	remove_ship_flag = "ass_op_sm_strategic_resource_10"
+	remove_ship_flag = "ass_op_sm_strategic_resource_11"
+	remove_ship_flag = "ass_op_sm_strategic_resource_2"
+	remove_ship_flag = "ass_op_sm_strategic_resource_3"
+	remove_ship_flag = "ass_op_sm_strategic_resource_4"
+	remove_ship_flag = "ass_op_sm_strategic_resource_5"
+	remove_ship_flag = "ass_op_sm_strategic_resource_6"
+	remove_ship_flag = "ass_op_sm_strategic_resource_7"
+	remove_ship_flag = "ass_op_sm_strategic_resource_8"
+	remove_ship_flag = "ass_op_sm_strategic_resource_9"
+	remove_ship_flag = "ass_op_sm_synchronized_defenses_2"
+	remove_ship_flag = "ass_op_sm_synchronized_defenses_3"
+	remove_ship_flag = "ass_op_sm_synchronized_defenses_4"
+}
+
+renegade_spaceports_ass_stage1_sm_pre = {
+	check_engineering_bay_2 = yes
+	check_hydroponic_farms_2 = yes
+	check_hydroponic_farms_3 = yes
+	check_hydroponic_farms_4 = yes
+	check_listening_post_1 = yes
+	check_listening_post_2 = yes
+	check_material_factory_1 = yes
+	check_material_factory_2 = yes
+	check_material_factory_3 = yes
+	check_material_factory_4 = yes
+	check_material_factory_5 = yes
+	check_ministry_of_propaganda_1 = yes
+	check_ministry_of_propaganda_2 = yes
+	check_ministry_of_war_1 = yes
+	check_ministry_of_war_2 = yes
+	check_observatory_2 = yes
+	check_observatory_3 = yes
+	check_private_news_radio_1 = yes
+	check_private_news_radio_2 = yes
+	check_psionic_mood_array = yes
+	check_rse_module_armor_1 = yes
+	check_rse_module_armor_2 = yes
+	check_rse_module_armor_3 = yes
+	check_rse_module_hangar_1 = yes
+	check_rse_module_hangar_2 = yes
+	check_rse_module_hull_1 = yes
+	check_rse_module_hull_2 = yes
+	check_rse_module_hull_3 = yes
+	check_rse_module_weapon_k1 = yes
+	check_rse_module_weapon_k2 = yes
+	check_rse_module_weapon_k3 = yes
+	check_rse_module_weapon_k4 = yes
+	check_rse_module_weapon_l1 = yes
+	check_rse_module_weapon_l2 = yes
+	check_rse_module_weapon_l3 = yes
+	check_rse_module_weapon_l4 = yes
+	check_rse_module_weapon_m1 = yes
+	check_rse_module_weapon_m2 = yes
+	check_rse_module_weapon_m3 = yes
+	check_rse_module_weapon_m4 = yes
+	check_rse_module_weapon_xl_1 = yes
+	check_rse_module_weapon_xl_2 = yes
+	check_rse_spaceport_shield_1 = yes
+	check_rse_spaceport_shield_2 = yes
+	check_rse_spaceport_shield_3 = yes
+	check_ship_assembly_yards_1 = yes
+	check_ship_assembly_yards_2 = yes
+	check_ship_assembly_yards_3 = yes
+	check_solar_panel_network2 = yes
+	check_solar_panel_network3 = yes
+	check_solar_panel_network4 = yes
+	check_solar_panel_network5 = yes
+	check_solar_panel_network6 = yes
+	check_solar_panel_network7 = yes
+	check_spaceport_military_1 = yes
+	check_spaceport_military_2 = yes
+	check_spaceport_military_3 = yes
+	check_spaceport_military_4 = yes
+	check_spaceport_science_lab_1 = yes
+	check_spaceport_science_lab_2 = yes
+	check_spaceport_science_lab_3 = yes
+	check_spaceport_science_lab_4 = yes
+	check_spaceport_science_lab_5 = yes
+	check_state_media_news_1 = yes
+	check_state_media_news_2 = yes
+	check_strategic_resource_1 = yes
+	check_strategic_resource_10 = yes
+	check_strategic_resource_11 = yes
+	check_strategic_resource_2 = yes
+	check_strategic_resource_3 = yes
+	check_strategic_resource_4 = yes
+	check_strategic_resource_5 = yes
+	check_strategic_resource_6 = yes
+	check_strategic_resource_7 = yes
+	check_strategic_resource_8 = yes
+	check_strategic_resource_9 = yes
+	check_synchronized_defenses_2 = yes
+	check_synchronized_defenses_3 = yes
+	check_synchronized_defenses_4 = yes
+}

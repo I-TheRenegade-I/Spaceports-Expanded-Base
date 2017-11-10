@@ -1,0 +1,175 @@
+renegade_remove_modifiers = {
+	set_variable = { which = "RenegadeSpaceportLevel" value = 0 }
+	remove_modifier = renegade_spaceport_planet_level_1
+	remove_modifier = renegade_spaceport_planet_level_2
+	remove_modifier = renegade_spaceport_planet_level_3
+	remove_modifier = renegade_spaceport_planet_level_4
+	remove_modifier = renegade_spaceport_planet_level_5
+	remove_modifier = renegade_spaceport_planet_level_6
+	remove_modifier = renegade_spaceport_planet_level_7
+	remove_modifier = renegade_spaceport_planet_level_8
+	remove_modifier = renegade_spaceport_planet_level_9
+	remove_modifier = renegade_spaceport_planet_level_10
+	remove_modifier = renegade_spaceport_planet_level_11
+	remove_modifier = renegade_spaceport_planet_level_12
+	remove_modifier = renegade_spaceport_planet_level_13
+	remove_modifier = renegade_spaceport_planet_level_14
+	remove_modifier = renegade_spaceport_planet_level_15
+	remove_modifier = renegade_spaceport_planet_level_16
+	remove_modifier = renegade_spaceport_planet_level_17
+	remove_modifier = renegade_spaceport_planet_level_18
+	remove_modifier = renegade_spaceport_planet_level_19
+	if = {
+		limit = { exists = spaceport }
+		spaceport = {
+			random_owned_ship = {
+				remove_modifier = renegade_spaceport_ship_level_1
+				remove_modifier = renegade_spaceport_ship_level_2
+				remove_modifier = renegade_spaceport_ship_level_3
+				remove_modifier = renegade_spaceport_ship_level_4
+				remove_modifier = renegade_spaceport_ship_level_5
+				remove_modifier = renegade_spaceport_ship_level_6
+				remove_modifier = renegade_spaceport_ship_level_7
+				remove_modifier = renegade_spaceport_ship_level_8
+				remove_modifier = renegade_spaceport_ship_level_9
+				remove_modifier = renegade_spaceport_ship_level_10
+				remove_modifier = renegade_spaceport_ship_level_11
+				remove_modifier = renegade_spaceport_ship_level_12
+				remove_modifier = renegade_spaceport_ship_level_13
+				remove_modifier = renegade_spaceport_ship_level_14
+				remove_modifier = renegade_spaceport_ship_level_15
+				remove_modifier = renegade_spaceport_ship_level_16
+				remove_modifier = renegade_spaceport_ship_level_17
+				remove_modifier = renegade_spaceport_ship_level_18
+				remove_modifier = renegade_spaceport_ship_level_19
+			}
+		}
+	}
+}
+
+# #!/usr/bin/lua
+# local tmpl = [[
+# renegade_buff_%d = {
+# 	add_modifier = { modifier = renegade_spaceport_planet_level_%d days = -1 }
+# 	spaceport = { random_owned_ship = { add_modifier = { modifier = renegade_spaceport_ship_level_%d days = -1 } } }
+# 	set_variable = { which = "RenegadeSpaceportLevel" value = %d }
+# }
+# ]]
+# for i = 1, 19 do
+# 	print(tmpl:format(i,i,i,i))
+# end
+
+
+renegade_buff_1 = {
+	add_modifier = { modifier = renegade_spaceport_planet_level_1 days = -1 }
+	spaceport = { random_owned_ship = { add_modifier = { modifier = renegade_spaceport_ship_level_1 days = -1 } } }
+	set_variable = { which = "RenegadeSpaceportLevel" value = 1 }
+}
+
+renegade_buff_2 = {
+	add_modifier = { modifier = renegade_spaceport_planet_level_2 days = -1 }
+	spaceport = { random_owned_ship = { add_modifier = { modifier = renegade_spaceport_ship_level_2 days = -1 } } }
+	set_variable = { which = "RenegadeSpaceportLevel" value = 2 }
+}
+
+renegade_buff_3 = {
+	add_modifier = { modifier = renegade_spaceport_planet_level_3 days = -1 }
+	spaceport = { random_owned_ship = { add_modifier = { modifier = renegade_spaceport_ship_level_3 days = -1 } } }
+	set_variable = { which = "RenegadeSpaceportLevel" value = 3 }
+}
+
+renegade_buff_4 = {
+	add_modifier = { modifier = renegade_spaceport_planet_level_4 days = -1 }
+	spaceport = { random_owned_ship = { add_modifier = { modifier = renegade_spaceport_ship_level_4 days = -1 } } }
+	set_variable = { which = "RenegadeSpaceportLevel" value = 4 }
+}
+
+renegade_buff_5 = {
+	add_modifier = { modifier = renegade_spaceport_planet_level_5 days = -1 }
+	spaceport = { random_owned_ship = { add_modifier = { modifier = renegade_spaceport_ship_level_5 days = -1 } } }
+	set_variable = { which = "RenegadeSpaceportLevel" value = 5 }
+}
+
+renegade_buff_6 = {
+	add_modifier = { modifier = renegade_spaceport_planet_level_6 days = -1 }
+	spaceport = { random_owned_ship = { add_modifier = { modifier = renegade_spaceport_ship_level_6 days = -1 } } }
+	set_variable = { which = "RenegadeSpaceportLevel" value = 6 }
+}
+
+renegade_buff_7 = {
+	add_modifier = { modifier = renegade_spaceport_planet_level_7 days = -1 }
+	spaceport = { random_owned_ship = { add_modifier = { modifier = renegade_spaceport_ship_level_7 days = -1 } } }
+	set_variable = { which = "RenegadeSpaceportLevel" value = 7 }
+}
+
+renegade_buff_8 = {
+	add_modifier = { modifier = renegade_spaceport_planet_level_8 days = -1 }
+	spaceport = { random_owned_ship = { add_modifier = { modifier = renegade_spaceport_ship_level_8 days = -1 } } }
+	set_variable = { which = "RenegadeSpaceportLevel" value = 8 }
+}
+
+renegade_buff_9 = {
+	add_modifier = { modifier = renegade_spaceport_planet_level_9 days = -1 }
+	spaceport = { random_owned_ship = { add_modifier = { modifier = renegade_spaceport_ship_level_9 days = -1 } } }
+	set_variable = { which = "RenegadeSpaceportLevel" value = 9 }
+}
+
+renegade_buff_10 = {
+	add_modifier = { modifier = renegade_spaceport_planet_level_10 days = -1 }
+	spaceport = { random_owned_ship = { add_modifier = { modifier = renegade_spaceport_ship_level_10 days = -1 } } }
+	set_variable = { which = "RenegadeSpaceportLevel" value = 10 }
+}
+
+renegade_buff_11 = {
+	add_modifier = { modifier = renegade_spaceport_planet_level_11 days = -1 }
+	spaceport = { random_owned_ship = { add_modifier = { modifier = renegade_spaceport_ship_level_11 days = -1 } } }
+	set_variable = { which = "RenegadeSpaceportLevel" value = 11 }
+}
+
+renegade_buff_12 = {
+	add_modifier = { modifier = renegade_spaceport_planet_level_12 days = -1 }
+	spaceport = { random_owned_ship = { add_modifier = { modifier = renegade_spaceport_ship_level_12 days = -1 } } }
+	set_variable = { which = "RenegadeSpaceportLevel" value = 12 }
+}
+
+renegade_buff_13 = {
+	add_modifier = { modifier = renegade_spaceport_planet_level_13 days = -1 }
+	spaceport = { random_owned_ship = { add_modifier = { modifier = renegade_spaceport_ship_level_13 days = -1 } } }
+	set_variable = { which = "RenegadeSpaceportLevel" value = 13 }
+}
+
+renegade_buff_14 = {
+	add_modifier = { modifier = renegade_spaceport_planet_level_14 days = -1 }
+	spaceport = { random_owned_ship = { add_modifier = { modifier = renegade_spaceport_ship_level_14 days = -1 } } }
+	set_variable = { which = "RenegadeSpaceportLevel" value = 14 }
+}
+
+renegade_buff_15 = {
+	add_modifier = { modifier = renegade_spaceport_planet_level_15 days = -1 }
+	spaceport = { random_owned_ship = { add_modifier = { modifier = renegade_spaceport_ship_level_15 days = -1 } } }
+	set_variable = { which = "RenegadeSpaceportLevel" value = 15 }
+}
+
+renegade_buff_16 = {
+	add_modifier = { modifier = renegade_spaceport_planet_level_16 days = -1 }
+	spaceport = { random_owned_ship = { add_modifier = { modifier = renegade_spaceport_ship_level_16 days = -1 } } }
+	set_variable = { which = "RenegadeSpaceportLevel" value = 16 }
+}
+
+renegade_buff_17 = {
+	add_modifier = { modifier = renegade_spaceport_planet_level_17 days = -1 }
+	spaceport = { random_owned_ship = { add_modifier = { modifier = renegade_spaceport_ship_level_17 days = -1 } } }
+	set_variable = { which = "RenegadeSpaceportLevel" value = 17 }
+}
+
+renegade_buff_18 = {
+	add_modifier = { modifier = renegade_spaceport_planet_level_18 days = -1 }
+	spaceport = { random_owned_ship = { add_modifier = { modifier = renegade_spaceport_ship_level_18 days = -1 } } }
+	set_variable = { which = "RenegadeSpaceportLevel" value = 18 }
+}
+
+renegade_buff_19 = {
+	add_modifier = { modifier = renegade_spaceport_planet_level_19 days = -1 }
+	spaceport = { random_owned_ship = { add_modifier = { modifier = renegade_spaceport_ship_level_19 days = -1 } } }
+	set_variable = { which = "RenegadeSpaceportLevel" value = 19 }
+}
